@@ -22,7 +22,7 @@ public class CloudVendorAPIService {
     public String createCloudVendorDetails(@RequestBody CloudVendor cloudVendor)
     {
        this.cloudVendor = cloudVendor;
-       return "Cloud Vendor Sucessfully";
+       return "Cloud Vendor created Sucessfully";
     }
 
     @PutMapping
